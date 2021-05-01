@@ -49,7 +49,7 @@ function setup(){
 
 function draw(){
     if(backgroundImg)
-    background(backgroundImg);
+      background(backgroundImg);
     textSize(35);
     fill("white");
     text("score:"+score,950,50);
