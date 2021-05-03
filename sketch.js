@@ -14,7 +14,7 @@ var bg
 var score=0;
 
 function preload() {
-    
+    backgroundImg=loadImage(bg)
     getBackgroundImage();
 }
 
@@ -122,7 +122,7 @@ async function getBackgroundImage(){
     else {
         bg= "sprites/bg2.jpg";
     }
-    backgroundImg = loadImage(bg);
+    backgr
     
 
 }
